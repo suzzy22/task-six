@@ -1,0 +1,17 @@
+.image-sec{
+    height: 450px !important;
+}
+.naivas-photo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.naivas-photo{
+    min-width: 300px;
+}
+
+
+
+.card::before{
+    transition: transform 2s ease, opacity .5s ease-out;
+}

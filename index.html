@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+    <title>landing page</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/img/naivas-profile.jpg" class="rounded-circle" alt="" width="35" height="35" class="d-inline-block align-text-top"> online shopping</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-5">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="index2.html">About Us</a>
+          <a class="nav-link" href="index3.html">Contact</a>
+        </div>
+      </div>
+      <form class="d-flex" role="search">
+        <span><i class="bi bi-person-fill mt-5"></i>Member Login</span>
+       
+        <button class="btn btn-primary ms-2" type="submit">sign up</button>
+      </form>
+    </div>
+  </nav>
+   
+    <div class="top-hero-section bg-dark">
+      <div class="container">
+            <div class="text-center py-5">
+                <h1 class="text-light display-1 fw-bold">ONLINE SHOPPING</h1>
+                <h2 class="text-light display-1 fw-bold">Shop with Naivas</h2>
+                <p class="h2 text-light">Good news to everyone make an order by doing an online shop with naivas and it will be delivered to you free </p>
+             
+                <button type="button" class="btn btn-primary my-5">Try for free</button>
+                <div class="icon-section">
+                
+            </div>
+            
+      </div>
+           
+    </div>
+    </div>
+      
+     
+   
+ 
+    
+
+    <script src="../js/bootstrap.min.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+       <!-- Initialize Swiper -->
+ <script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+</html>
